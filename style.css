@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: green;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.heading{
+    margin-left: 0;
+}
+
+.home-section{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-world-science-day-horizontal-banner-template_23-2149723020.jpg?t=st=1726421639~exp=1726425239~hmac=c11775babdf6b4e0f4803ef023dfb93f1683291a153741c168be695d6b4525ad&w=1060");
+background-size: cover;
+height: 80vh;
+background-position: center;
+}
+
+.heading2{
+    background-color: teal;
+ padding: 10px;
+ text-align: center;
+ color: green;   
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.flex-item{
+    width: 200px;
+    height: 275px;
+}
+
+body{
+  color: teal;
+}
